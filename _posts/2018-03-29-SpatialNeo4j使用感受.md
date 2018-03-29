@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
-title:      Neo4jSpatial使用感受
-subtitle:   基础知识笔记
+title:      <font color="black">Neo4jSpatial使用感受</font>
+subtitle:   <font color="black">基础知识笔记</font>
 date:       2018-03-09
 author:     LM
 header-img: img/post-bg-SpatialNeo4j.jpg
@@ -22,9 +22,10 @@ tags:
 #dbms.connectors.default_listen_address=0.0.0.0
 ```
 
-然后用浏览器连接
-http://192.168.204.128:7474/browser/
+然后用浏览器连接http://192.168.204.128:7474/browser/
+
 输入新密码
+
 显示下面的结果，表示neo4j安装并配置完成。
 ```
 You are connected as user neo4j
@@ -33,9 +34,10 @@ Connection credentials are stored in your web browser.
 ```
 
 # 安装Neo4jSpatial
-从https://github.com/neo4j-contrib/spatial/releases/tag/0.25.4-neo4j-3.2.8
-下载jar包neo4j-spatial-0.25.4-neo4j-3.2.8-server-plugin.jar
+从https://github.com/neo4j-contrib/spatial/releases/tag/0.25.4-neo4j-3.2.8下载jar包neo4j-spatial-0.25.4-neo4j-3.2.8-server-plugin.jar
+
 将其复制到/opt/neo4j/plugins里
+
 重启neo4j
 
 
