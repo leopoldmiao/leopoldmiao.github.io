@@ -2,7 +2,7 @@
 layout:     post
 title:      <font color="black">Neo4jSpatial使用感受</font>
 subtitle:   <font color="black">基础知识笔记</font>
-date:       2018-03-09
+date:       2018-03-29
 author:     LM
 header-img: img/post-bg-SpatialNeo4j.jpg
 catalog: true
