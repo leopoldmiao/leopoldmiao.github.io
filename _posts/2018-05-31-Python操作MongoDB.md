@@ -55,7 +55,7 @@ db.abcd.drop()                  --删除集合，与此同时所有文档也删�
 ensure_index([("fid", 1), ("date", 1)], unique=True)为两列属性建立了联合索引，1表示升序，-1表示降序。
 ensure_index("fid", unique=True)  也可以不指定升降序。
 
-#Python操作MongDB
+# Python操作MongDB
 调用方式参见下面的例子：
 ```
 from pymongo import MongoClient
@@ -64,7 +64,10 @@ def getFundList(self):
 	db = conn.funds  # 连接数据库funds，如果没有则创建
 	fundList = db.FundList  # 使用FundList表，如果没有则创建
 	lists = []
-	cursor = fundList.find() #find的参数中没有查询条件，则查询全部数据。find({"name":"zhangsan"})这种是加条件的查询
+
+	cursor = fundList.find() 
+	#find的参数中没有查询条件，则查询全部数据。find({"name":"zhangsan"})这种是加条件的查询
+
 	for f in cursor:  
 		# print f["fid"] #查询出来的f就是一个字典对象，字典可以用key作为[]来检索属性值。
 		fund = Fund()
