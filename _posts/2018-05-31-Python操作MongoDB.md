@@ -1,7 +1,7 @@
 ﻿---
 layout:     post
-title:      Python操作MongoDB
-subtitle:   创建索引，增删改查
+title:       <font color="black">Python操作MongoDB</font>
+subtitle:   <font color="black">创建索引，增删改查</font>
 date:       2018-05-31
 author:     LM
 header-img: img/post-bg-PythonMongoDB.jpg
